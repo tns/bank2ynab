@@ -1,0 +1,12 @@
+# ignore virtual environment
+.DS_Store
+.Python
+.vscode
+/bin
+/include
+/lib
+pip-selfcheck.json
+
+*.swp
+*.key
+*.csv
