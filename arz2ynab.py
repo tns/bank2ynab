@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# schoeller2ynab.py
+# arz2ynab.py
 # create YNAB CSV import file based on Schoellerbank CSV export
 
 import sys
@@ -10,7 +10,7 @@ import decimal
 def fmtDate(sdate):
     return sdate[5:7] + '/' + sdate[8:11] + '/' + sdate[2:4]
 
-def schoeller2ynab(inFile, outFile):
+def arz2ynab(inFile, outFile):
     reader = csv.reader(open(inFile), delimiter=";")
     writer = csv.writer(open(outFile, "w", newline=''), delimiter=",") 
 
@@ -49,5 +49,5 @@ if __name__ == "__main__":
         else:
             outFile = "./" + sys.argv[2]
 
-        schoeller2ynab(sys.argv[1], outFile)
+        arz2ynab(sys.argv[1], outFile)
         print("%s --> %s" % (sys.argv[1], outFile))  

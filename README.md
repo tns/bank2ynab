@@ -1,5 +1,5 @@
-# schoeller2ynab.py
-create YNAB CSV import file based on Schoellerbank CSV export
+# arz2ynab.py
+create YNAB CSV import file based on ARZ CSV export
 
 ## usage:
-schoeller2ynab.py infile (outfile)
+arz2ynab.py infile (outfile)
