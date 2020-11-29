@@ -1,4 +1,4 @@
-# arz2ynab.py
+# bank2ynab
 create YNAB CSV import file based on CSV export of bank account
 
 - arz2ynab.py - convert ARZ based CSV export to YNAB import file
